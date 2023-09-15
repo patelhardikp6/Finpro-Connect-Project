@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar{
+    height:80px;
+    background-color: #0A2940; 
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.nav-logo{
+    height:60px;
+    width:100px;
+    background-image: url('logo image.jpg');
+    background-size: cover;
+}
+.left{
+    width:40%;
+    margin-left:10px;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float:left;
+}
+.left a{
+    font-size: 20px;
+}
+.right{
+    height:70px;
+    width:300px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.left p a{
+    text-decoration: none;
+    color:white;
+}
+.left p:hover{
+    color:darkorange;
+    border:2px solid white;
+}
+.right button{
+    padding:10px 8px;
+   font-size: 25px;
+   font-weight: 500;
+   background-color: #55BA53;
+   color:white;
+   text-align: center;
+   border:2px solid #55BA53;
+}
+.right button:hover{
+    background-color: #0A2940 ;
+    color:white;
+}
+.right1 button{
+    padding:10px 8px;
+    font-size: 25px;
+   font-weight: 500;
+   text-align: center;
+   background-color: #55BA53;
+   border:2px solid #55ba53;
+   color:white;
+}
+.right button:hover{
+    background-color: #0A2940 ;
+    color:white;
+}
+.right1 button:hover{
+    background-color: #0A2940 ;
+    color:white;
+}
+.herosection1{
+    height:800px;
+    width:100%;
+    background-image:url('herosection11.jpg');
+    background-size:cover;
+    background-repeat:none;
+    position:center;
+}
+
+.hero-write{
+    padding-top: 200px;
+    margin-left:350px;
+    height:200px;
+    width:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: blueviolet;
+    /* border:2px solid black; */
+}
+
+.hero-write1{
+    margin-top:10px;
+    margin-left: 390px;
+    padding-top:20px;
+    height:150px;
+    width:600px;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+.explore{
+    margin-left:390px;
+    height:80px;
+    width:300px;
+    /* border:2px solid black; */
+    display :flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.explore button{
+    font-size: 18px;
+    font-weight: bold;
+    height:50px;
+    width:100px;
+    border-radius:4px;
+    background-color:#0067b8;
+    color:white;
+}
+.services{
+    height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1{
+    height:250px;
+    width:250px;
+    border:2px solid black;
+    background-image: url('box1.jpg');
+    background-size:cover;
+    background-repeat: none;
+}
+.box1 h2{
+    color:white;
+}
+.box1 p{
+    font-size:20px;
+    margin-top: 100px;
+    color:white;
+}
+.box2{
+    height:250px;
+    width:250px;
+    background-image: url('credit-score.jpg');
+    background-size: cover;
+    background-repeat: none;
+    border:2px solid black;
+}
+.box3{
+    height:250px;
+    width:250px;
+    background-image: url('box3.jpg');
+    border:2px solid black;
+}
